@@ -19,27 +19,28 @@ if (isset($_POST['save'])) {
 <html>
 <head>
   <meta charset="utf-8"><title>Creating Student Record</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
- 
-  <h2>Create Student Record</h2>
-    
-  <form method="post">
-    <label>ID Number</label>
-    <input type="text" name="id_number" required>
-    
-    <label>Name</label>
-    <input type="text" name="name" required>
-    
-    <label>Email</label>
-    <input type="text" name="email" required>
-    
-    <label>Course</label>
-    <input type="text" name="course" required>
-    
-    <button type="submit" name="save">Save</button>
-  </form>
-
+  <div class="container">
+    <h2>Create Student Record</h2>
+      
+    <form method="post">
+      <label>ID Number</label>
+      <input type="text" name="id_number" required>
+      
+      <label>Name</label>
+      <input type="text" name="name" required>
+      
+      <label>Email</label>
+      <input type="text" name="email" required>
+      
+      <label>Course</label>
+      <input type="text" name="course" required>
+      
+      <button type="submit" name="save">Save</button>
+    </form>
+  </div>
 
 </body>
 </html>
